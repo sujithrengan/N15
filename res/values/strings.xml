@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nittfest 15</string>
+    <string name="archi">ARCHI</string>
+    <string name="ca">CA</string>
+    <string name="chem">CHEM</string>
+    <string name="civil">CIVIL</string>
+    <string name="comsci">COMSCI</string>
+    <string name="doms">DOMS</string>
+    <string name="ece">ECE</string>
+    <string name="eee">EEE</string>
+    <string name="ice">ICE</string>
+    <string name="mech">MECH</string>
+    <string name="mme">MME</string>
+    <string name="prod">PROD</string>
+    <string name="footer2"> by Delta Force.</string>
+    <string name="footer1"> Made with </string>
+    <string name="already_registered">You are already registered!.</string>
+    <string name="gcm_registered">Welcome to Pragyan 2015!</string>
+    <string name="gcm_unregistered"> successfully unregistered!</string>
+    <string name="gcm_message"> you got message!</string>
+    <string name="gcm_error"> error (%1$s).</string>
+    <string name="gcm_recoverable_error"> recoverable error (%1$s).</string>
+    <string name="gcm_deleted"> server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register ....</string>
+    <string name="server_registered">Welcome to Pragyan 2015!!!</string>
+    <string name="server_unregistered">Bye!</string>
+    <string name="server_register_error">Could not register after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="title_activity_graph">GraphActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

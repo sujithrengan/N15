@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/overly"
+    tools:context=".PullToRefreshActivity">
+
+    <com.delta.nittfest.PullToRefreshView
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.delta.nittfest.PullToRefreshView>
+    
+    <RelativeLayout
+         android:id="@+id/ol"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#99786666"
+         android:visibility="invisible" >
+         
+         <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:text="Drag down to REFRESH\n\n\n*TURN ON INTERNET CONNECTION\nTO RECEIVE NOTIFICATIONS*\n\nMay the best Team win."
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp">
+    </TextView>
+    <Button
+        android:id="@+id/gi"
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:text="Got It!"
+        android:textColor="#ffffff"
+        android:background="#546666"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        
+       >
+    
+        </Button>
+     </RelativeLayout>
+
+</FrameLayout>
